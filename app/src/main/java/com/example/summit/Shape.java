@@ -1,7 +1,8 @@
 package com.example.summit;
 
 public abstract class Shape {
-    String color = "red";
+    private String color = "$PUT_YOUR_CHOICE_OF_COLOR";
+
     private int x;
     private int y;
 
