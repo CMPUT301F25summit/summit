@@ -1,9 +1,9 @@
 package com.example.summit;
 
 public abstract class Shape {
+    private String color = "Blue";
     private int x;
     private int y;
-    private String color = "Blue"; 
 
     public Shape (int x, int y) {
         this.x = x;
